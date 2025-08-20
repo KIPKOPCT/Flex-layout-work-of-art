@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.top-layout {
+    flex: 1;
+}
+.top-layout img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bottom-layout {
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-layout img {
+    flex: 1;
+    width: 50%;
+    height: auto;
+}
